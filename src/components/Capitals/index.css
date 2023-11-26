@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.capital-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8fafc;
+  height: 37vh;
+  width: 500px;
+  border-radius: 14px;
+}
+
+@media (max-width: 768px) {
+  .capital-container {
+    width: 380px;
+    height: 30vh;
+    margin: 6px;
+  }
+}
+
+.country {
+  width: 150px;
+  height: 33px;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 5px;
+  outline: none;
+  color: #000000;
+}
+
+.question-container {
+  width: 90%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .question-container {
+    width: 95%;
+    margin: 10px;
+  }
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 22px;
+  }
+}
+
+.question-capital {
+  display: flex;
+  align-items: center;
+}
+
+.country-question {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 430;
+  padding-left: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .country-question {
+    font-size: 12px;
+  }
+}
+
+.answer {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .answer {
+    font: 16px;
+  }
+}
